@@ -1,0 +1,18 @@
+h1{
+	text-align:left;
+}
+			
+#contact{
+	text-align:right;
+}
+			
+#box {
+	border-width: 0.5em;
+	border-style: solid;
+	border-color: red;
+	width: 35em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+}
+		

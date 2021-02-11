@@ -1,0 +1,34 @@
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: white;
+  background: rgb(0, 82, 0);
+  padding: 0.25em;
+  }
+  
+  
+  
+h2 {
+  font-size: 1.5em;
+  }
+  
+  
+#box {
+  border: 0.25em  solid  black;
+  width: 40em;
+  padding: 1em;
+  margin-left: auto; 
+  margin-right: auto;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  background: rgb(255, 255 ,185);
+  }
+
+
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  width: 12.5em;
+  margin-left: auto;
+  margin-bottom: 0;
+  background: rgb(218, 165, 32);
+  }

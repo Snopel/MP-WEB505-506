@@ -17,9 +17,9 @@ NOTE: em = ~16px. A different unit of measurement */
 	border-style: solid;
 	border-color: black;
 	width: 50em;
-	margin-left: auto;
+	margin-left: auto; /* Margin is for the outside of the box */
 	margin-right: auto;
-	padding: 1em;
+	padding: 1em; /* Padding is for the inside of the box */
 }
 			
 /* Utilising Class to format the texts given the specified class modifier */

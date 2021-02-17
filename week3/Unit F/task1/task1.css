@@ -1,0 +1,79 @@
+
+
+body {
+  padding: 1em;
+  margin: 0;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  background-image: url("../bigJpizza/images/brick.jpg");
+  }
+h1, h2 {
+  font-family:  arial, georgia, times, serif;
+  }
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: black;
+  line-height: 1.75em;
+  }
+
+h2 {
+  font-size: 1.5em;
+ 
+  }
+
+#box {
+  width: 40em;
+  padding: 0em;
+  margin-left: auto; 
+  margin-right: auto;
+  background: #FFFFFF;
+  }
+
+#footer {
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+  background: #FFCC66;
+  text-align: right;
+  padding: 0.25em;
+  margin: 0;
+  }
+
+.callout {
+  font-weight: bold;  
+  }
+  
+.breakline{
+	color: red;
+}
+
+#mainnav {
+	text-align: right;
+	background: black;
+	padding: 0.25em;
+	margin: 0;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+}
+
+/* ___NAVIGATION SUBCLASSES___ */
+
+/* The default link colour */
+#mainnav a:link{
+	color: red;
+}
+/* When the cursor hovers over the link */
+#mainnav a:hover{
+	color: #FFFFFF;
+}
+/* When the link has been clicked */
+#mainnav a:visited{
+	color: #FFCC66;
+}
+
+/* Formatting the logo, floating it to the right */
+#logo {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: right;
+}

@@ -1,0 +1,94 @@
+
+
+body {
+  padding: 1em;
+  margin: 0;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  background-image: url("../bigJpizza/images/brick.jpg");
+  }
+h1, h2 {
+  font-family:  arial, georgia, times, serif;
+  }
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: black;
+  line-height: 1.75em;
+  padding: 0.25em;
+  }
+
+h2 {
+  font-size: 1.25em;
+  padding-left: 1.5em;
+  }
+  
+ p {
+	 padding-left: 1em;
+ }
+
+#box {
+  width: 40em;
+  padding: 0em;
+  margin-left: auto; 
+  margin-right: auto;
+  background: #FFFFFF;
+  }
+
+#footer {
+	clear: right;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+  background: #FFCC66;
+  text-align: right;
+  padding: 0.25em;
+  margin: 0;
+  }
+
+.callout {
+  font-weight: bold;  
+  }
+  
+.breakline{
+	color: red;
+}
+
+#mainnav {
+	text-align: right;
+	background: black;
+	padding: 0.25em;
+	margin: 0;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+}
+
+#mainnav a:link{
+	color: red;
+}
+#mainnav a:hover{
+	color: #FFFFFF;
+}
+#mainnav a:visited{
+	color: #FFCC66;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: right;
+}
+
+/* Formatting the table */
+table{
+	border-collapse: collapse;
+	margin-left: 1em;
+}
+th{
+	background: #FFCC66;
+	padding: 0.25em;
+	text-align: center;
+}
+td{
+	padding: 0.25em;
+	text-align: center;
+}

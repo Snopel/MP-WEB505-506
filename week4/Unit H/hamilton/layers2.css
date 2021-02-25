@@ -1,0 +1,33 @@
+body{
+	background: #CCCCCC;
+}
+
+#layer1{
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	/* z-index is like a layering priority. The higher the number, the higher it is on the layer hierarchy.*/
+}
+
+#layer2{
+	position: relative;
+	top: -200px;
+	left: 550px;
+	font-size: 80px;
+	font-weight: bold;
+	font-style: italic;
+	color: #660000;
+	z-index: 2;
+	/* Having an index of 2, being higher than 1 in layer1, it will appear above layer1 */
+}
+
+#box{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span{
+	position: relative;
+	left: 200px;
+}

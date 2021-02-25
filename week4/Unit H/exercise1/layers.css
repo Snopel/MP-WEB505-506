@@ -1,0 +1,12 @@
+#layer1{
+	position:relative;	
+	z-index:1;
+}
+#layer2{
+	position:relative;
+	/* The 0 point is below the image. */
+	top:-200px; left:5px; /* The -200px moves it up in negative coordinates and thus floats it above the image */
+	color:blue;
+	font-size:80px;
+	z-index:2;
+}

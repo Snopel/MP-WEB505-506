@@ -1,0 +1,138 @@
+﻿/* Spotted Wren Garden Center */
+
+
+
+body {
+  font-family: verdana, arial, helvetica, sans-serif; 
+  margin-left: auto;
+  margin-right: auto;
+  background: green;
+  background: url("images/grass.jpg");
+  }
+
+
+figure {
+  float: right;
+  margin-left: 0.5em;
+  text-align: center;
+  position: relative;
+  }
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em 0;
+  width: 100%;
+  background: rgb(221, 221, 221);
+  background: rgba(221, 221, 221, 0.5);
+  font-weight: bold;
+  }
+footer {
+  background: #ff0;
+  text-align: center;
+  clear: right;
+  }
+footer p { 
+  padding: 0.5em;
+  }
+form {
+  background: #6c6;
+  padding-top: 20px;
+  }
+
+h1 {
+  font-size: 2em;
+  }
+h1 img {
+  display: block;
+  }
+h2 {
+  margin-left: 12px;
+  font-size: 1.5em;
+  }
+
+input:focus, textarea:focus {
+  background: #ff0;
+  }
+legend {
+  font-weight: bold;
+  }
+
+
+#box {
+  width: 864px;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+  }
+
+/*
+fieldset: set up the width as 800px
+*/
+fieldset {
+	width: 832px;
+	border-color: white;
+}
+
+/*#nameinput, #emailinput
+set up the width as 200px
+*/
+#nameinput, #emailinput {
+	width: 200px;
+}
+
+textarea {
+	overflow-y: scroll;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+    }
+
+/* Submit */
+#submitbtn {
+	text-align: center;
+	padding: 10px;
+}
+
+#logo img {
+  display: block;
+  position: relative;
+  z-index: 5;
+  }
+#logobg img {
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  }
+#mainnav {
+  color: white;
+  text-align: center;
+  background: #F15A24;
+  padding: 0.25em;
+  
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.4em;
+  }
+
+#zipinput, #phoneinput {
+  width: 12em;
+  }
+
+
+#mainnav a:link {
+  color: white;
+  text-decoration: none;
+  }
+#mainnav a:visited {
+  color: #d6d6c2;
+  }
+#mainnav a:hover {
+  text-decoration: none;
+  color: #ffff00;
+  text-shadow: 1px 1px 2px gray;
+  }
+#mainnav a:active {
+  color: #ffcc00;
+  }

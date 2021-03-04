@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  
+}
+
+.bg_image {
+  /* The image used */
+  background: url("images/Island2.jpg");
+
+  height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.form_div {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  width: 300px;
+  padding: 16px;
+  background-color: white;
+  /* Rounding corners */
+  border-radius: 15px;
+ 
+}
+
+/* Full-width input fields */
+input {
+  width: 100%;
+  padding: 15px 0;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  opacity: 0.5;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* Adding some more style to the button's pseudo element */
+.btn:hover {
+	opacity: 1;
+}

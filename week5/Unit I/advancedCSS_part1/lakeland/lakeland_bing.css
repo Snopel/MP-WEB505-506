@@ -1,0 +1,134 @@
+﻿/* Lakeland Reeds Bed and Breakfast */
+
+h1, h2, footer {
+  text-align: center;
+  }
+ 
+body {
+ 
+  background: url("images/lake.jpg");
+  }
+
+figure {
+  display: block;
+  float: right;
+  margin: 0 0 0.5em 1em;
+  text-align: center;
+  position: relative;
+  }
+footer {
+  display: block;
+  clear: both;
+  font-size: 1.25em;
+  }
+footer p {
+  background: #B8944D;
+  text-align: center;
+  padding: 0.25em;
+  border-radius: 10px;
+  
+   }
+h1 {
+  font-size: 2.25em;
+  }
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  }
+h3 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  }
+img {
+  border: none;
+  margin: 0 auto;
+  border-radius: 20px;
+  }
+li img {
+  position: absolute;
+  left: -22px; 
+  top: -8px;
+ 
+  }
+nav {
+  display: block;
+  font-size: 1.25em;
+  }
+nav ul {
+  margin-left: 0;
+  }
+nav p {
+  text-align: center;
+  }
+
+#box {
+	width: 960px;
+  position: relative;
+  padding: 1em;
+  margin: 1em auto; 
+  background: white;
+  /* Rounding the corners */
+  border-radius: 10px;
+ 
+  }
+#content {
+  display: block;
+  margin-left: 10em;
+  }
+#content p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size:1.25em;
+  }
+
+#mainnav {
+  text-align: left;
+  padding: 0.25em;
+  padding-left: 0.5em;
+  width: 7em;
+  position: absolute;
+  left: 20px;
+  }
+
+#mainnav li {
+  list-style-type: none;
+  padding: 0.25em 0.25em 0.25em 1em;
+  margin: 0.25em 0;
+  background: #B8944D;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid rgb(52, 24, 15);
+  border-right: 2px solid rgb(52, 24, 15);
+  }
+
+#mainnav ul {
+  margin: 0;
+  padding: 0;
+   
+  }
+
+.callout {
+  font-weight: bold;
+  }
+
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: #422100;
+  }
+#mainnav a:hover {
+  color: white;
+  
+  }
+#mainnav a:active {
+  color: #422100;
+  }
+  /* Modifying a Pseudo-Element */
+ #maintext:first-letter{
+	 font-size: 3em;
+	 float: left;
+	 line-height: 0.8em;
+	 text-shadow: 3px 3px 5px black; /* X axis, Y axis, Spread, Colour */
+ }

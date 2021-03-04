@@ -1,0 +1,64 @@
+/*here is the sytle for the travel website*/
+
+body{
+	background: #ffe4e1;
+}
+
+#box{
+	background: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid gray;*/
+	
+}
+
+h1{
+	
+	text-align: center;
+	background: #e2fff8;
+	color: #81a8c3;
+	
+}
+
+figure{
+	float: right;
+}
+
+#footer{
+	text-align: center;
+	background: #e2fff8;
+	color: #81a8c3;
+	
+	clear: right;
+	
+	font-weight: bold;
+}
+#company{
+	font-weight: bold;
+	font-style: italic;
+	color: #ac521a;
+	font-size: 1.2em;
+}
+#container {
+  position: relative;
+  width: 100%;
+ /* max-width: 400px; */
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 2s ease;
+  background-color: red;
+}
+
+#container:hover #overlay {
+  opacity: 1;
+  background: url("images/banner2.jpg");
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+#image {
+ 
+  width: 100%;
+  height: auto;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 2s ease;
+  background-color: red;
+}
+
+#container:hover #overlay {
+  opacity: 1;
+  background: url("images/Island2.jpg");
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay Image</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div id="container">
+  <img src="images/Island.jpg" alt="Island" id="image">
+  <div id="overlay">
+  
+  </div>
+</div>
+
+</body>
+</html>

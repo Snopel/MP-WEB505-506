@@ -1,0 +1,30 @@
+/* CSS for Cards Task */
+
+#box {
+	width: 250px;
+	box-shadow: 2px 4px 8px gray;
+	text-align: center;
+}
+
+.header {
+	background: #4CAF50;
+	color: white;
+	padding: 10px;
+	font-size: 40px;
+}
+
+.footer {
+	position: relative;
+	top: 0;
+	background: gray;
+	transition: .5s ease;
+	opacity: 0.1;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+#box:hover .footer{
+	opacity: 1;
+}

@@ -1,0 +1,22 @@
+div {
+	width: 100px;
+	height: 100px;
+	background: red;
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}	
+}
+
+img {
+	animation-name: peace;
+	animation-duration: 5s;
+}
+
+@keyframes peace {
+	from {opacity: 1;}
+	to {opacity: 0;}
+}

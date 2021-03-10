@@ -1,0 +1,9 @@
+input {
+ width: 100px;
+ /*-webkit-transition: width .35s ease-in-out; */
+ transition: width .35s;
+}
+
+input:focus {
+ width: 250px;
+ background: #E19D8F;

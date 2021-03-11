@@ -11,12 +11,20 @@ body {
   }
 
 
-figure {
+#main {
   float: right;
   margin-left: 0.5em;
   text-align: center;
   position: relative;
-  }
+}
+  
+#overlay{
+  float: right;
+  margin-left: 0.5em;
+  text-align: center;
+  position: relative;
+}
+
 
 figcaption {
   position: absolute;

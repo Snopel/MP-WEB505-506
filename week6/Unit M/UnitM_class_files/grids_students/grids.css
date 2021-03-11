@@ -1,0 +1,97 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+figure {
+	text-align: center;
+}
+
+img {
+	width: 150px;
+}
+
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  color: #A10005;
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    ' header header header' 
+    'left  middle right' 
+    'footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.left {grid-area: left;}
+
+
+.middle {grid-area: middle;}
+
+
+.right {grid-area: right;}
+
+
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+#mainnav {
+  padding: 0.25em;
+  padding-left: 0.5em;
+  width: 200px;
+  }
+#mainnav a {
+  text-decoration: none;
+  }
+#mainnav li {
+  list-style-type: none;
+  padding: 0.25em 0.25em 0.25em 1em;
+  margin: 0.25em 0;
+  background: #C0B0AC;
+ 
+  
+  border-radius: 10px;
+  
+  border: 2px solid #B6B1AF;
+  box-shadow: 3px 5px 10px #928B88;
+  }
+  #nav{
+	  margin: 0 auto;
+  }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header' 
+      'left' 
+      'middle' 
+      'right' 
+      'footer';
+  }
+}
+

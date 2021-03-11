@@ -1,0 +1,27 @@
+#box{
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	background: #AD9636;
+}
+#flexbox {
+  width: 200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background: #CBCB76;
+  float: left;
+}
+
+#flexbox > img { 
+  width: 100px;
+  padding: 20px;
+  margin: auto; 
+  font-size: 30px;
+}
+#right{
+	width: 600px;
+	height: 600px;
+	float: left;
+	background: yellow;
+}

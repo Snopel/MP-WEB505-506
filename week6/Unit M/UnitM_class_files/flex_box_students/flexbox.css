@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Style the header */
+.header {
+	color: #A10005;
+	background-color: #f1f1f1;
+	padding: 5px;
+	text-align: center;
+	font-size: 35px;
+	text-shadow: 2px 2px 5px black;
+}
+
+/* Container for flexboxes */
+.three_rows {
+ flex-direction: row;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+   flex: 1; /*fill the whole row*/
+  padding: 10px;
+ 
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  clear:both;
+}
+figure{
+	float: right;
+}
+
+img {
+	width: 150px;
+}
+#mainnav {
+  padding: 0.25em;
+  padding-left: 0.5em;
+  width: 200px;
+  }
+#mainnav a {
+  text-decoration: none;
+  }
+#mainnav li {
+  list-style-type: none;
+  padding: 0.25em 0.25em 0.25em 1em;
+  margin: 0.25em 0;
+  background: #C0B0AC;
+ 
+  
+  border-radius: 10px;
+  
+  border: 2px solid #B6B1AF;
+  box-shadow: 3px 5px 10px #928B88;
+  }
+  #nav{
+	  margin: 0 auto;
+  }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .three_rows {
+ 
+    flex-direction: column;
+	
+  }
+  
+}

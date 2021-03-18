@@ -4,7 +4,7 @@
 }
 body{
 	font-family:Verdana;
-	background: url("images/lifebloodbg.jpg");
+	background: url("images/sitebg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -16,9 +16,31 @@ h1{
 h2{
 	color: #FC053F;
 	font-family: "Trajan Pro";
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+h3{
+	color: #ABDFFF
 }
 p{
 	color: white;
+}
+table{
+	color: white;
+	margin: 10px;
+}
+th{
+	color: #ABDFFF;
+	font-family: "Trajan Pro";
+}
+tr, th, td{
+	padding: 5px;
+}
+#date{
+	color: #FC053F;
+	font-size: 10px;
+	margin: 0;
 }
 #box{
 	width: 80%;
@@ -32,6 +54,7 @@ p{
 	text-shadow: 0px 3px 5px black;
 	font-weight: bold;
 	font-family: "Trajan Pro";
+	border-radius: 50px;
 }
 #footer{
 	background-color: rgba(78, 108, 130, 0.5);
@@ -39,6 +62,7 @@ p{
 	text-align:center;
 	padding:10px;
 	margin-top:20px;
+	border-radius: 20px;
 }
 #contents{
 	overflow: auto;
@@ -47,8 +71,35 @@ p{
 #breaker{
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	height: 20px;
 	display: block;
+}
+#soiree{
+	width: 200px;
+	margin: 10px;
+	border-radius: 50px;
+	filter: drop-shadow(0 0 20px white);
+}
+#earliernews{
+	margin: 20px;
+	text-align: center;
+}
+#earliernews a:link, a:visited {
+	color: #FC053F;
+	font-family: "Trajan Pro";
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+	text-decoration: none;
+}
+#earliernews a:hover{
+	color: #ABDFFF;
+}
+
+.imgright{
+	float: right;
 }
 .menu {
   float:left;
@@ -65,13 +116,14 @@ p{
   height: 110%;
   color:#FC053F;
   font-family: "Trajan Pro";
+  text-decoration: none;
+  text-shadow: 0 0 5px #FC053F;
 }
 .menu a:hover{
-	color: #FF5E66;
 	margin-left: 8px;
 }
 .menu a:visited{
-	color: #A10005;
+	color: #C30330;
 }
 .main {
   float:left;
@@ -80,6 +132,7 @@ p{
   margin-top: 20px;
   margin-left: 20px;
   background: rgba(78, 108, 130, 0.5);
+  border-radius: 50px;
 }
 
 @media only screen and (max-width:620px) {

@@ -4,21 +4,27 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel = "stylesheet" href = "snopelnet.css" />
+		<link rel = "icon" href="images/icon.png" />
+		<title>SnopelNet</title>
 	</head>
 	<body>
+		<!-- This Div is the layout for the entire document -->
 		<div id = "box">
+			<!-- The header image box designed to be the consistent title card for every page -->
 			<div id = "header">
 				<h1>SnopelNet</h1>
 			</div>
-
+			
+			<!-- Navigation bar, replacing the links with vectored buttons -->
 			<div id = "contents">
 				<div class="menu">
-					<a href="index.html">Home</a>
-					<a href="#">Artwork</a>
-					<a href="#">Music</a>
-					<a href="#">About Us</a>
+					<a href="snopelnet.html">Home</a>
+					<a href="music.html">Music</a>
+					<a href="artwork.html">Artwork</a>
+					<a href="aboutus.html">About Us</a>
 				</div>
-
+				
+				<!-- The main section -->
 				<div class="main">
 					<h2>Welcome!</h2>
 					<p>Welcome to <b>SnopelNet</b>!</p>
@@ -26,9 +32,10 @@
 						This is a humble gallery for the artist <b>Snopel</b> to showcase his many works and creations for any willing
 						outsider to view, along with updates on his carreer and upcoming public events!
 					</p>
-					<img id = "breaker" src = "images/nail2.png"/>
+					<!-- Inserting a breaker image to separate information with a bit more 'pop' -->
+					<img id = "breaker" src = "images/nail2.png" alt = "breaker"/>
 					<h2>News</h2>
-					<span id = "date">18/03/2021</span>
+					<div class = "date">18/03/2021</div>
 					<h3>The All-Australia Art Tour is back on!</h3>
 					<p>
 						Good news, all!<br/><br/>
@@ -38,6 +45,7 @@
 						will be showcasing his works and travelling the country! <br/><br/>
 						Come see us at the following sites:<br/>
 					</p>
+					<!-- This seemed to be the best way to layout all the information cleanly and coherently -->
 					<table>
 						<tr>
 							<th>Date</th>
@@ -138,7 +146,7 @@
 						We hope to see you all there!
 					</p>
 					
-					<span id = "date">16/12/2020</span>
+					<div class = "date">16/12/2020</div>
 					<h3>Art Tour Cancelled...</h3>
 					<p>
 						Greetings all, <br/><br/>
@@ -153,10 +161,11 @@
 						We thank you for your patience and your support.
 					</p>
 					
-					<span id = "date">26/11/2020</span>
+					<div class = "date">26/11/2020</div>
 					<h3>Surprise Soiree was a success!</h3>
+					<!-- Inserting an image onto the page cleanly -->
 					<figure class = "imgright">
-						<img id = "soiree" src = "images/soiree.png"/>
+						<img class = "imgframe" src = "images/soiree.png" alt = "Soiree Photo"/>
 					</figure>
 					<p>
 						Greetings all,<br/><br/>
@@ -171,7 +180,8 @@
 						We hope all who showed up enjoyed the performance!
 					</p>
 					<br/>
-					<div id = "earliernews">
+					<!-- A mock button designed to display older information when pressed like a normal news network -->
+					<div class = "linkstyle">
 						<a href="#">Older News...</a>
 					</div>
 				</div>
